@@ -1,0 +1,123 @@
+
+:root {
+    --primary: #F5F5F5;
+    --primary-bg: #F1F1F1;
+    --primary-dark: #757575;
+    --secondary: #E5E6E8;
+    --dark: #000;
+    --dark-bg:#2E2E2E;
+    --green-bg: #DEEDD6;
+    --white: #fff;
+    --dark-btn:#707070;
+    --btn-hover: #FF5555;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-my-style {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+/* header section */
+.header-section{
+    background-color: var(--primary);
+    background-image: url("../img/header-cover.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+.header-title {
+    padding: 10rem 0;
+}
+.header-title h1 {
+    font-size: 5vw;
+}
+.header-title p {
+    font-size: 2vw;
+    letter-spacing: 15px;
+}
+
+/* Running Project css */
+#seeMore1 {
+    display: none;
+}
+.project-bg {
+    padding: 40px 50px 0px 50px;
+    border-radius: 0 0 10px 10px;
+}
+.project-bg-1 {
+    background-color: var(--secondary);
+}
+.project-bg-2 {
+    background-color: var(--primary);
+}
+.project-bg-3 {
+    background-color: var(--dark);
+    color: var(--white);
+}
+.project-bg-4 {
+    background-color: var(--primary-dark);
+    color: var(--white);
+}
+.project-bg-5 {
+    background-color: var(--dark-bg);
+    color: var(--white);
+}
+.project-bg-6 {
+    background-color: var(--green-bg);
+}
+.project-title .project-logo {
+    width: 100%;
+    height: 60px;
+}
+.project-title .project-logo img {
+    height: 100%;
+}
+.project-image {
+    height: 400px;  
+}
+.project-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.rp-btn-bg {
+    background-color: var(--dark-btn);
+    color: var(--white);
+    padding: 10px 50px;
+}
+.rp-btn-bg:hover {
+    text-decoration: none;
+    background-color: var(--btn-hover);
+    color: var(--white);
+}
+
+/* Upcomming project css */
+.upcoming-project-wrapper, .footer-wrapper {
+    background-color: var(--primary-bg);
+    padding: 2rem 0;
+}
+/* footer section css */
+.contact-section a{ 
+    color: var(--dark-btn);
+    font-size: 20px;
+    margin: 0 5px;
+}
+.footer-nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.footer-nav ul li {
+    float: left;
+    margin: 0 10px;
+}
+/* .footer-nav ul li a {
+    display: block;
+} */
+.footer-nav li a:hover, .footer-media a:hover {
+    color: var(--btn-hover);
+}
