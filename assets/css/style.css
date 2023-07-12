@@ -6,19 +6,52 @@
     --secondary: #E5E6E8;
     --dark: #000;
     --dark-bg:#2E2E2E;
+    --nev-dark: #313132;
     --green-bg: #DEEDD6;
-    --white: #fff;
+    --white: #F3F3F3;
     --dark-btn:#707070;
     --btn-hover: #FF5555;
+}
+
+ul li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
 }
 body{
     font-family: 'Montserrat', sans-serif;
 }
 
+.mynevbar {
+    background-color: var(--nev-dark);
+    color: var(--white);
+}
+.navbar-brand {
+    width: 15px;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: var(--white) !important;
+}
 .navbar-my-style {
+    font-size: 12px;
+    font-weight: 400;
     width: 100%;
     display: flex;
     justify-content: space-around;
+}
+.navigation-title a svg {
+    font-size: 8px;
+    rotate: -45deg;
 }
 /* header section */
 .header-section{
@@ -33,19 +66,20 @@ body{
     padding: 10rem 0;
 }
 .header-title h1 {
-    font-size: 5vw;
+    font-size: 45px;
 }
 .header-title p {
-    font-size: 2vw;
-    letter-spacing: 1.5vw;
+    font-size: 16px;
+    letter-spacing: 16px;
 }
-
 /* Running Project css */
 #seeMore1 {
     display: none;
 }
+.project-bg .project-title {
+    padding-top: 40px;
+}
 .project-bg {
-    padding: 40px 50px 0px 50px;
     border-radius: 0 0 10px 10px;
 }
 .project-bg-1 {
