@@ -6,7 +6,7 @@
     --secondary: #E5E6E8;
     --dark: #000;
     --dark-bg:#2E2E2E;
-    --nev-dark: #313132;
+    --secondary-dark: #313132;
     --green-bg: #DEEDD6;
     --white: #F3F3F3;
     --dark-btn:#707070;
@@ -31,9 +31,12 @@ ul {
 body{
     font-family: 'Montserrat', sans-serif;
 }
+.header-title, .running-project-section h1, .project-header h1 {
+    color: var(--secondary-dark);
+}
 
 .mynevbar {
-    background-color: var(--nev-dark);
+    background-color: var(--secondary-dark);
     color: var(--white);
 }
 .navbar-brand {
@@ -42,6 +45,7 @@ body{
 .navbar-dark .navbar-nav .nav-link{
     color: var(--white) !important;
 }
+
 .navbar-my-style {
     font-size: 12px;
     font-weight: 400;
@@ -64,6 +68,7 @@ body{
 }
 .header-title {
     padding: 10rem 0;
+    color: var(--secondary-dark);
 }
 .header-title h1 {
     font-size: 45px;
@@ -73,6 +78,7 @@ body{
     letter-spacing: 16px;
 }
 /* Running Project css */
+
 #seeMore1 {
     display: none;
 }
@@ -117,6 +123,7 @@ body{
     width: 100%;
     height: 100%;
     object-fit: contain;
+    object-position: 50% 100%;
 }
 .rp-btn-bg {
     background-color: var(--dark-btn);
@@ -149,9 +156,9 @@ body{
     float: left;
     margin: 0 10px;
 }
-/* .footer-nav ul li a {
-    display: block;
-} */
+.footer-nav ul li a {
+    font-size: 16px;
+}
 .footer-nav li a:hover, .footer-media a:hover {
     color: var(--btn-hover);
 }
