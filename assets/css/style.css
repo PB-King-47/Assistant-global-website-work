@@ -162,3 +162,14 @@ body{
 .footer-nav li a:hover, .footer-media a:hover {
     color: var(--btn-hover);
 }
+
+
+
+/* Owl carusal  */
+.owl-carousel .owl-item img {
+    width: fit-content;
+    margin: 0 auto;
+}
+.small-show{
+    display: none;
+}
