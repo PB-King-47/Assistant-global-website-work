@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
     <!-- main style CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/img.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
 
     <title>Assistant Global</title>
@@ -24,11 +25,13 @@
             <!-- Nav bar start -->
             <nav class="navbar navbar-expand-lg navbar-dark mynevbar">
                 <div class="container">
-                    <a class="navbar-brand" href="#"><img class="img-fluid" src="assets/img/logo-1.png" alt="Assistant logo">
+                    
+                    <a class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </a>
+                    <a class="navbar-brand" href="#"><img class="img-fluid" src="assets/img/logo/Logo.svg" alt="Assistant logo">
                     </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
+
                   
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                       <ul class="navbar-nav mr-auto navbar-my-style">
@@ -47,15 +50,23 @@
                         <li class="nav-item">
                           <a class="nav-link" href="#">Support</a>
                         </li>
-                        <li class="nav-item">
-                          <a class="nav-link" id="searchIcon" href="#" data-target="#search_form" data-toggle="collapse"><i class="fa-solid fa-magnifying-glass"></i></a>
-                        </li>
                       </ul>
-                      <form class="collapse form-inline my-2 my-lg-0" id="search_form">
-                        <input id="search" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                    </form>
                     </div>
+                    <div class="d-flex">
+                    <div class="navbar-brand">
+                        <a class="navbar-brand" id="searchIcon" href="" data-target="#navbarSearch" data-toggle="collapse"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </div>
+                    <!-- Search form -->
+                    <div class="collapse" id="navbarSearch">
+                        <form class="form-inline my-2 my-lg-0" >
+                            <div class="d-flex">
+                            <input id="search" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        </div>
+                        </form>
+                    </div>
+                </div>
+                    
                     
                 </div>
               </nav>
@@ -65,7 +76,8 @@
             <div class="navigation-title py-3">
                 <div class="nevigation-content-warrper">
                     <div class="d-flex navigation-title-con align-items-center justify-content-center">
-                        <img class="img-fluid mr-2" src="assets/img/logo-2.png" alt="header-logo">
+                        <img class="img-fluid" src="assets/img/logo/A Kids Logo.svg" alt="">
+                        <!-- <span class="header-logo"></span> -->
                         <a href="#">Empowering Communities to give children a brighter future <i class="fa-solid fa-arrow-right-long"></i></a>
                     </div>
                 </div>
@@ -86,48 +98,44 @@
     <!-- Running Project section start -->
     <div class="running-project-section py-3">
         <div class="container-fluid">
-            <div class="project-header my-5 text-center">
-                <h1 class="text-uppercase">Running Project</h1>
-            </div>
             <div class="big-show">
             <div class="row">
                 <!-- single running project start -->
                 <div class="col-md-6 col-sm-12 mb-4 text-center align-middle">
-                    <div class="project-bg project-bg-1">
-                        <div class="project-title">
-                            <div class="project-logo">
-                                <img class="img-fluid" src="assets/img/running_project/AIT.png" alt="">
+                    <div class="flip-card">
+                        <div class="project-bg project-bg-1 r-project-image-1">
+                            <div class="project-title">
+                                <div class="project-logo">
+                                    <img class="img-fluid" src="assets/img/logo/Menta.svg" alt="">
+                                </div>
+                                <p class="my-4 text-uppercase">Sense of fashion</p>
+                                <a href="#">Explore ></a>
                             </div>
-                            <p class="my-4 text-uppercase">Assistant Information Technology</p>
-                            <a href="#">Explore ></a>
-                        </div>
-                        <div class="project-image">
-                            <img class="img-fluid" src="assets/img/running_project/running-project1.png" alt="">
-                        </div>
+                        </div> <!-- project-bg end -->
                     </div>
-                </div> <!-- project-bg end -->
+                    </div>
                 <!-- single running project end -->
 
                 <!-- single running project start -->
                 <div class="col-md-6 col-sm-12 mb-4 text-center align-middle">
-                    <div class="project-bg project-bg-2">
+                    <div class="flip-card">
+                    <div class="project-bg project-bg-3 r-project-image-2">
                         <div class="project-title">
                             <div class="project-logo">
-                                <img class="img-fluid" src="assets/img/running_project/ACap.png" alt="">
+                                <img class="img-fluid" src="assets/img/logo/Cilo.svg" alt="">
                             </div>
-                            <p class="my-4 text-uppercase">Advance your business capacity</p>
+                            <p class="my-4 text-uppercase">Think. Feel. Drive</p>
                             <a href="#">Explore ></a>
                         </div>
-                        <div class="project-image">
-                            <img class="img-fluid" src="assets/img/running_project/running-project2.png" alt="">
-                        </div>
+                    </div> <!-- project-bg end -->
                     </div>
-                </div> <!-- project-bg end -->
+                </div>
                 <!-- single running project end -->
 
                 <!-- single running project start -->
                 <div class="col-md-6 col-sm-12 mb-4 text-center align-middle">
-                    <div class="project-bg project-bg-3">
+                    <div class="flip-card">
+                    <div class="project-bg project-bg-3 r-project-image-3">
                         <div class="project-title">
                             <div class="project-logo">
                                 <h2>Kettop</h2>
@@ -135,35 +143,28 @@
                             <p class="my-4 text-uppercase">Innovation starts here</p>
                             <a href="#">Explore ></a>
                         </div>
-                        <div class="project-image">
-                            <img class="img-fluid" src="assets/img/running_project/running-project3.png" alt="">
-                        </div>
-                    </div>
-                </div> <!-- project-bg end -->
+                    </div> <!-- project-bg end -->
+                </div>
+                </div>
                 <!-- single running project end -->
 
                 <!-- single running project start -->
                 <div class="col-md-6 col-sm-12 mb-4 text-center align-middle">
-                    <div class="project-bg project-bg-2">
+                    <div class="flip-card">
+                    <div class="project-bg project-bg-1 r-project-image-4">
                         <div class="project-title">
                             <div class="project-logo">
-                                <img class="img-fluid" src="assets/img/running_project/travel.png" alt="">
+                                <img class="img-fluid" src="assets/img/logo/AIT.svg" alt="">
                             </div>                            
-                            <p class="my-4 text-uppercase">Learn & Enjoy</p>
+                            <p class="my-4 text-uppercase">Assistant Information technology </p>
                             <a href="#">Explore ></a>
                         </div>
-                        <div class="project-image">
-                            <img class="img-fluid" src="assets/img/running_project/running-project4.png" alt="">
-                        </div>
+                    </div> <!-- project-bg end -->
                     </div>
-                </div> <!-- project-bg end -->
+                </div>
                 <!-- single running project end -->
             </div> <!---- Row End -->
 
-
-            <div class="project-button text-center my-4">
-                <a href="#" class="text-capitalize rp-btn-bg">See more</a>
-            </div>
             </div> <!-- Big show end-->
 
             <!-- Small View For slider -->
@@ -171,16 +172,13 @@
             <div class="owl-carousel owl-theme">
                 <!-- single running project start -->
                 <div class="mb-4 text-center align-middle">
-                    <div class="project-bg project-bg-1">
+                    <div class="project-bg project-bg-1 r-project-image-1">
                         <div class="project-title">
                             <div class="project-logo">
-                                <img class="img-fluid" src="assets/img/running_project/AIT.png" alt="">
+                                <img class="img-fluid" src="assets/img/logo/Menta.svg" alt="">
                             </div>
-                            <p class="my-4 text-uppercase">Assistant Information Technology</p>
+                            <p class="my-4 text-uppercase">Sense of fashion</p>
                             <a href="#">Explore ></a>
-                        </div>
-                        <div class="project-image">
-                            <img class="img-fluid" src="assets/img/running_project/running-project1.png" alt="">
                         </div>
                     </div>
                 </div> <!-- project-bg end -->
@@ -188,16 +186,13 @@
 
                 <!-- single running project start -->
                 <div class="mb-4 text-center align-middle">
-                    <div class="project-bg project-bg-2">
+                    <div class="project-bg project-bg-3 r-project-image-2">
                         <div class="project-title">
                             <div class="project-logo">
-                                <img class="img-fluid" src="assets/img/running_project/ACap.png" alt="">
+                                <img class="img-fluid" src="assets/img/logo/Cilo.svg" alt="">
                             </div>
-                            <p class="my-4 text-uppercase">Advance your business capacity</p>
+                            <p class="my-4 text-uppercase">Think. Feel. Drive</p>
                             <a href="#">Explore ></a>
-                        </div>
-                        <div class="project-image">
-                            <img class="img-fluid" src="assets/img/running_project/running-project2.png" alt="">
                         </div>
                     </div>
                 </div> <!-- project-bg end -->
@@ -206,7 +201,7 @@
 
                 <!-- single running project start -->
                 <div class="mb-4 text-center align-middle">
-                    <div class="project-bg project-bg-3">
+                    <div class="project-bg project-bg-3 r-project-image-3">
                         <div class="project-title">
                             <div class="project-logo">
                                 <h2>Kettop</h2>
@@ -214,25 +209,19 @@
                             <p class="my-4 text-uppercase">Innovation starts here</p>
                             <a href="#">Explore ></a>
                         </div>
-                        <div class="project-image">
-                            <img class="img-fluid" src="assets/img/running_project/running-project3.png" alt="">
-                        </div>
                     </div>
                 </div> <!-- project-bg end -->
                 <!-- single running project end -->
 
                 <!-- single running project start -->
                 <div class="mb-4 text-center align-middle">
-                    <div class="project-bg project-bg-2">
+                    <div class="project-bg project-bg-2 r-project-image-4">
                         <div class="project-title">
                             <div class="project-logo">
-                                <img class="img-fluid" src="assets/img/running_project/travel.png" alt="">
+                                <img class="img-fluid" src="assets/img/logo/AIT.svg" alt="">
                             </div>                            
                             <p class="my-4 text-uppercase">Learn & Enjoy</p>
                             <a href="#">Explore ></a>
-                        </div>
-                        <div class="project-image">
-                            <img class="img-fluid" src="assets/img/running_project/running-project4.png" alt="">
                         </div>
                     </div>
                 </div> <!-- project-bg end -->
@@ -246,158 +235,312 @@
     <!-- Upcomming Project section start -->
     <div class="upcoming-project-wrapper">
         <div class="container-fluid">
-            <div class="project-header my-5 text-center">
-                <h1 class="text-uppercase">Upcoming project</h1>
-            </div>
             <div class="big-show">
-            <div class="row">
-                <!-- single upcomming project start -->
-                <div class="col-md-6 col-sm-12 mb-4 text-center align-middle">
-                    <div class="project-bg project-bg-4">
-                        <div class="project-title">
-                            <div class="project-logo">
-                                <h2>DRIVE</h2>
-                            </div>
-                            <p class="my-4 text-uppercase">Secured Drive</p>
-                            <a href="#">Explore ></a>
+                <div class="row" id="upcoming_project">
+                    <!-- single upcomming project start -->
+                    <div class="col-md-6 col-sm-12 mb-4 text-center align-middle">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <div class="project-bg project-bg-4 project-image-1">
+                                        <div class="project-title">
+                                            <div class="project-logo">
+                                                <h2>DRIVE</h2>
+                                            </div>
+                                            <p class="my-4 text-uppercase">Secured Drive</p>
+                                            <a href="" class="explore-btn">Explore ></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flip-card-back project-bg-4">
+                                    <div class="project-bg" >
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <img class="img-fluid" src="assets/img/upcoming_project/Drive.png" alt="">
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <div class="project-logo">
+                                                    <h2>DRIVE</h2>
+                                                    <p class="my-4 text-uppercase">Secured Drive</p>
+                                                    <a href="#" class="btn btn-success">Explore ></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> <!-- flip-card-back -->
+                            </div>    <!-- flip-card-inner -->   
                         </div>
-                        <div class="project-image">
-                            <img class="img-fluid" src="assets/img/upcoming_project/upcoming-project1.png" alt="">
-                        </div>
+                    </div> <!-- project-bg end -->
+                    <!-- single upcomming project end -->
+                    
+    
+                    <!-- single upcomming project start -->
+                    <div class="col-md-6 col-sm-12 mb-4 text-center align-middle">
+                      <div class="flip-card">
+                          <div class="flip-card-inner">
+                              <div class="flip-card-front">
+                                  <div class="project-bg project-bg-4 project-image-2">
+                                      <div class="project-title">
+                                          <div class="project-logo">
+                                            <img class="img-fluid" src="assets/img/logo/aPay.svg" alt="Image" style="filter: brightness(1000%);">
+                                          </div>
+                                          <p class="my-4 text-uppercase"></p>
+                                          <a href="" class="explore-btn">Explore ></a>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="flip-card-back project-bg-4">
+                                  <div class="project-bg" >
+                                      <div class="row">
+                                          <div class="col-sm-6">
+                                              <img class="img-fluid" src="assets/img/upcoming_project/apay.png" alt="Content image">
+                                          </div>
+                                          <div class="col-sm-6">
+                                            <div class="project-logo">
+                                              <img class="img-fluid" src="assets/img/logo/aPay.svg" alt="Logo Image" style="width: 20%; filter: brightness(1000%);">
+                                            </div>
+                                            <p></p>
+                                              <a href="#" class="btn btn-success">Explore ></a>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div> <!-- flip-card-back -->
+                          </div>    <!-- flip-card-inner -->   
+                      </div>
+                  </div> <!-- project-bg end -->
+                  <!-- single upcomming project end --> 
+    
+    
+                    <!-- single upcomming project start -->
+                    <div class="col-md-6 col-sm-12 mb-4 text-center align-middle">
+                      <div class="flip-card">
+                          <div class="flip-card-inner">
+                              <div class="flip-card-front">
+                                  <div class="project-bg project-bg-2 project-image-3">
+                                      <div class="project-title">
+                                          <div class="project-logo">
+                                            <h2 class="text-uppercase">ABS</h2>
+                                          </div>
+                                          <p class="my-4 text-uppercase">Your business Solution</p>
+                                          <a href="" class="explore-btn">Explore ></a>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="flip-card-back project-bg-2">
+                                  <div class="project-bg" >
+                                      <div class="row">
+                                          <div class="col-sm-6">
+                                              <img class="img-fluid" src="assets/img/upcoming_project/ABS.png" alt="Content image">
+                                          </div>
+                                          <div class="col-sm-6">
+                                            <div class="project-logo">
+                                              <h2 class="text-uppercase">ABS</h2>
+                                            </div>
+                                            <p class="my-4 text-uppercase">Your business Solution</p>
+                                              <a href="#" class="btn btn-success">Explore ></a>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div> <!-- flip-card-back -->
+                          </div>    <!-- flip-card-inner -->   
+                      </div>
+                  </div> <!-- project-bg end -->
+                  <!-- single upcomming project end -->
+    
+    
+    
+                    <!-- single upcomming project start -->
+                    <div class="col-md-6 col-sm-12 mb-4 text-center align-middle">
+                      <div class="flip-card">
+                          <div class="flip-card-inner">
+                              <div class="flip-card-front">
+                                  <div class="project-bg project-bg-2 project-image-4">
+                                      <div class="project-title">
+                                          <div class="project-logo">
+                                            <h2 class="text-uppercase">property</h2>
+                                          </div>
+                                          <p class="my-4 text-uppercase">Make secure your future</p>
+                                          <a href="" class="explore-btn">Explore ></a>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="flip-card-back project-bg-2">
+                                  <div class="project-bg" >
+                                      <div class="row">
+                                          <div class="col-sm-6">
+                                              <img class="img-fluid" src="assets/img/upcoming_project/Property.png" alt="Content image">
+                                          </div>
+                                          <div class="col-sm-6">
+                                            <div class="project-logo">
+                                              <h2 class="text-uppercase">property</h2>
+                                            </div>
+                                            <p class="my-4 text-uppercase">Make secure your future</p>
+                                              <a href="#" class="btn btn-success">Explore ></a>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div> <!-- flip-card-back -->
+                          </div>    <!-- flip-card-inner -->   
+                      </div>
+                  </div> <!-- project-bg end -->
+                  <!-- single upcomming project end -->
+                  
+                  <!-- single upcomming project start -->
+                    <div class="col-md-6 col-sm-12 mb-4 text-center align-middle">
+                      <div class="flip-card">
+                          <div class="flip-card-inner">
+                              <div class="flip-card-front">
+                                  <div class="project-bg project-bg-2 project-image-5">
+                                      <div class="project-title">
+                                          <div class="project-logo">
+                                            <img class="img-fluid" src="assets/img/upcoming_project/travel.png" alt="Content image">
+                                          </div>
+                                          <p class="my-4 text-uppercase">Learn & Enjoy</p>
+                                          <a href="" class="explore-btn">Explore ></a>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="flip-card-back project-bg-2">
+                                  <div class="project-bg" >
+                                      <div class="row">
+                                          <div class="col-sm-6">
+                                              <img class="img-fluid" src="assets/img/upcoming_project/ATRavel.png" alt="Content image">
+                                          </div>
+                                          <div class="col-sm-6">
+                                            <div class="project-logo">
+                                              <img class="img-fluid" src="assets/img/upcoming_project/travel.png" alt="Content image">
+                                            </div>
+                                            <p class="my-4 text-uppercase">Learn & Enjoy</p>
+                                              <a href="#" class="btn btn-success">Explore ></a>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div> <!-- flip-card-back -->
+                          </div>    <!-- flip-card-inner -->   
+                      </div>
+                  </div> <!-- project-bg end -->
+                  <!-- single upcomming project end -->
+                  
+    
+                  <!-- single upcomming project start -->
+                    <div class="col-md-6 col-sm-12 mb-4 text-center align-middle">
+                      <div class="flip-card">
+                          <div class="flip-card-inner">
+                              <div class="flip-card-front">
+                                  <div class="project-bg project-bg-6 project-image-6">
+                                      <div class="project-title">
+                                          <div class="project-logo">
+                                            <h2 class="text-uppercase">Green</h2>
+                                          </div>
+                                          <p class="my-4 text-uppercase">Eat healthy food</p>
+                                          <a href="" class="explore-btn">Explore ></a>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="flip-card-back project-bg-6">
+                                  <div class="project-bg" >
+                                      <div class="row">
+                                          <div class="col-sm-6">
+                                              <img class="img-fluid" src="assets/img/upcoming_project/GREEN.png" alt="Content image">
+                                          </div>
+                                          <div class="col-sm-6">
+                                            <div class="project-logo">
+                                              <h2 class="text-uppercase">Green</h2>
+                                            </div>
+                                            <p class="my-4 text-uppercase">Eat healthy food</p>
+                                              <a href="#" class="btn btn-success">Explore ></a>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div> <!-- flip-card-back -->
+                          </div>    <!-- flip-card-inner -->   
+                      </div>
+                  </div> <!-- project-bg end -->
+                  <!-- single upcomming project end -->
+                  
+    
+                  <!-- single upcomming project start -->
+                    <div class="col-md-6 col-sm-12 mb-4 text-center align-middle">
+                      <div class="flip-card">
+                          <div class="flip-card-inner">
+                              <div class="flip-card-front">
+                                  <div class="project-bg project-bg-2 project-image-7">
+                                      <div class="project-title">
+                                          <div class="project-logo">
+                                            <h2 class="text-uppercase">ACap</h2>
+                                          </div>
+                                          <p class="my-4 text-uppercase">Advance your business capacity</p>
+                                          <a href="" class="explore-btn">Explore ></a>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="flip-card-back project-bg-2">
+                                  <div class="project-bg" >
+                                      <div class="row">
+                                          <div class="col-sm-6">
+                                              <img class="img-fluid" src="assets/img/upcoming_project/ACap.png" alt="Content image">
+                                          </div>
+                                          <div class="col-sm-6">
+                                            <div class="project-logo">
+                                              <h2 class="text-uppercase">ACap</h2>
+                                            </div>
+                                            <p class="my-4 text-uppercase">Advance your business capacity</p>
+                                              <a href="#" class="btn btn-success">Explore ></a>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div> <!-- flip-card-back -->
+                          </div>    <!-- flip-card-inner -->   
+                      </div>
+                  </div> <!-- project-bg end -->
+                  <!-- single upcomming project end -->
+                  
+    
+                  <!-- single upcomming project start -->
+                    <div class="col-md-6 col-sm-12 mb-4 text-center align-middle">
+                      <div class="flip-card">
+                          <div class="flip-card-inner">
+                              <div class="flip-card-front">
+                                  <div class="project-bg project-bg-2 project-image-8">
+                                      <div class="project-title">
+                                          <div class="project-logo">
+                                            <h3 class="text-uppercase">Eduacation</h3>
+                                          </div>
+                                          <p class="my-4 text-uppercase">Gain knowledge</p>
+                                          <a href="" class="explore-btn">Explore ></a>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="flip-card-back project-bg-2">
+                                  <div class="project-bg" >
+                                      <div class="row">
+                                          <div class="col-sm-6">
+                                              <img class="img-fluid" src="assets/img/upcoming_project/EDucation.png" alt="Content image">
+                                          </div>
+                                          <div class="col-sm-6">
+                                            <div class="project-logo">
+                                              <h3 class="text-uppercase">Education</h3>
+                                            </div>
+                                            <p class="my-4 text-uppercase">Gain knowledge</p>
+                                              <a href="#" class="btn btn-success">Explore ></a>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div> <!-- flip-card-back -->
+                          </div>    <!-- flip-card-inner -->   
+                      </div>
+                  </div> <!-- project-bg end -->
+                  <!-- single upcomming project end -->
+    
                     </div>
-                </div> <!-- project-bg end -->
-                <!-- single upcomming project end -->
-                
-                <!-- single upcomming project start -->
-                <div class="col-md-6 col-sm-12 mb-4 text-center align-middle">
-                    <div class="project-bg project-bg-4">
-                        <div class="project-title">
-                            <div class="project-logo">
-                                <img class="img-fluid" src="assets/img/upcoming_project/aPay.png" alt="">
-                            </div>
-                            <p class="my-4 text-uppercase">It's Secured </p>
-                            <a href="#">Explore ></a>
-                        </div>
-                        <div class="project-image">
-                            <img class="img-fluid" src="assets/img/upcoming_project/upcoming-project2.png" alt="">
-                        </div>
-                    </div>
-                </div> <!-- project-bg end -->
-                <!-- single upcomming project end -->
-                
-                <!-- single upcomming project start -->
-                <div class="col-md-6 col-sm-12 mb-4 text-center align-middle">
-                    <div class="project-bg project-bg-2">
-                        <div class="project-title">
-                            <div class="project-logo">
-                               <h2 class="text-uppercase">ABS</h2>
-                            </div>
-                            <p class="my-4 text-uppercase">Your business Solution</p>
-                            <a href="#">Explore ></a>
-                        </div>
-                        <div class="project-image">
-                            <img class="img-fluid" src="assets/img/upcoming_project/upcoming-project3.png" alt="">
-                        </div>
-                    </div>
-                </div> <!-- project-bg end -->
-                <!-- single upcomming project end -->
-                
-                <!-- single upcomming project start -->
-                <div class="col-md-6 col-sm-12 mb-4 text-center align-middle">
-                    <div class="project-bg project-bg-2">
-                        <div class="project-title">
-                            <div class="project-logo">
-                               <h2 class="text-uppercase">Property</h2>
-                            </div>
-                            <p class="my-4 text-uppercase">Your business Solution</p>
-                            <a href="#">Explore ></a>
-                        </div>
-                        <div class="project-image">
-                            <img class="img-fluid" src="assets/img/upcoming_project/upcoming-project4.png" alt="">
-                        </div>
-                    </div>
-                </div> <!-- project-bg end -->
-                <!-- single upcomming project end -->
-                
-                <!-- single upcomming project start -->
-                <div class="col-md-6 col-sm-12 mb-4 text-center align-middle">
-                    <div class="project-bg project-bg-5">
-                        <div class="project-title">
-                            <div class="project-logo">
-                               <h2 class="text-uppercase">Gold</h2>
-                            </div>
-                            <p class="my-4 text-uppercase">accumulate your asset</p>
-                            <a href="#">Explore ></a>
-                        </div>
-                        <div class="project-image">
-                            <img class="img-fluid" src="assets/img/upcoming_project/upcoming-project5.png" alt="">
-                        </div>
-                    </div>
-                </div> <!-- project-bg end -->
-                <!-- single upcomming project end -->
-                
-                <!-- single upcomming project start -->
-                <div class="col-md-6 col-sm-12 mb-4 text-center align-middle">
-                    <div class="project-bg project-bg-6">
-                        <div class="project-title">
-                            <div class="project-logo">
-                               <h2 class="text-uppercase">Green</h2>
-                            </div>
-                            <p class="my-4 text-uppercase">Eat healthy food</p>
-                            <a href="#">Explore ></a>
-                        </div>
-                        <div class="project-image">
-                            <img class="img-fluid" src="assets/img/upcoming_project/upcoming-project6.png" alt="">
-                        </div>
-                    </div>
-                </div> <!-- project-bg end -->
-                <!-- single upcomming project end -->
-                
-                <!-- single upcomming project start -->
-                <div class="col-md-6 col-sm-12 mb-4 text-center align-middle">
-                    <div class="project-bg project-bg-1">
-                        <div class="project-title">
-                            <div class="project-logo">
-                                <img class="img-fluid" src="assets/img/upcoming_project/Menta.png" alt="">
-                            </div>
-                            <p class="my-4 text-uppercase">accumulate your asset</p>
-                            <a href="#">Explore ></a>
-                        </div>
-                        <div class="project-image">
-                            <img class="img-fluid" src="assets/img/upcoming_project/upcoming-project7.png" alt="">
-                        </div>
-                    </div>
-                </div> <!-- project-bg end -->
-                <!-- single upcomming project end -->
-                
-                <!-- single upcomming project start -->
-                <div class="col-md-6 col-sm-12 mb-4 text-center align-middle">
-                    <div class="project-bg project-bg-2">
-                        <div class="project-title">
-                            <div class="project-logo">
-                               <h2 class="text-uppercase">Eduacation</h2>
-                            </div>
-                            <p class="my-4 text-uppercase">Gain knowledge</p>
-                            <a href="#">Explore ></a>
-                        </div>
-                        <div class="project-image">
-                            <img class="img-fluid" src="assets/img/upcoming_project/upcoming-project8.png" alt="">
-                        </div>
-                    </div>
-                </div> <!-- project-bg end -->
-                <!-- single upcomming project end -->
-            </div> <!-- End Row -->
-            <div class="project-button text-center my-4">
-                <a href="#" class="text-capitalize rp-btn-bg">See more</a>
-            </div>
-            </div> <!-- Big show end-->
+                </div> <!-- Big show end-->
             <!-- Small View For slider -->
             <div class="small-show">
                 <div class="upc-project-carousel owl-carousel owl-theme">
 
                     <!-- single upcomming project start -->
                 <div class="mb-4 text-center align-middle">
-                    <div class="project-bg project-bg-4">
+                    <div class="project-bg project-bg-4 project-image-1">
                         <div class="project-title">
                             <div class="project-logo">
                                 <h2>DRIVE</h2>
@@ -405,33 +548,27 @@
                             <p class="my-4 text-uppercase">Secured Drive</p>
                             <a href="#">Explore ></a>
                         </div>
-                        <div class="project-image">
-                            <img class="img-fluid" src="assets/img/upcoming_project/upcoming-project1.png" alt="">
-                        </div>
                     </div>
                 </div> <!-- project-bg end -->
                 <!-- single upcomming project end -->
                 
                 <!-- single upcomming project start -->
                 <div class="mb-4 text-center align-middle">
-                    <div class="project-bg project-bg-4">
+                    <div class="project-bg project-bg-4  project-image-2">
                         <div class="project-title">
                             <div class="project-logo">
-                                <img class="img-fluid" src="assets/img/upcoming_project/aPay.png" alt="">
+                                <img class="img-fluid" src="assets/img/logo/aPay.svg" alt="Upcomming Project Image" style="width: 20%; filter: brightness(1000%);">
                             </div>
                             <p class="my-4 text-uppercase">It's Secured </p>
                             <a href="#">Explore ></a>
                         </div>
-                        <div class="project-image">
-                            <img class="img-fluid" src="assets/img/upcoming_project/upcoming-project2.png" alt="">
-                        </div>
                     </div>
                 </div> <!-- project-bg end -->
                 <!-- single upcomming project end -->
                 
                 <!-- single upcomming project start -->
                 <div class="mb-4 text-center align-middle">
-                    <div class="project-bg project-bg-2">
+                    <div class="project-bg project-bg-2 project-image-3">
                         <div class="project-title">
                             <div class="project-logo">
                                <h2 class="text-uppercase">ABS</h2>
@@ -439,25 +576,19 @@
                             <p class="my-4 text-uppercase">Your business Solution</p>
                             <a href="#">Explore ></a>
                         </div>
-                        <div class="project-image">
-                            <img class="img-fluid" src="assets/img/upcoming_project/upcoming-project3.png" alt="">
-                        </div>
                     </div>
                 </div> <!-- project-bg end -->
                 <!-- single upcomming project end -->
                 
                 <!-- single upcomming project start -->
                 <div class="mb-4 text-center align-middle">
-                    <div class="project-bg project-bg-2">
+                    <div class="project-bg project-bg-2 project-image-4">
                         <div class="project-title">
                             <div class="project-logo">
                                <h2 class="text-uppercase">Property</h2>
                             </div>
-                            <p class="my-4 text-uppercase">Your business Solution</p>
+                            <p class="my-4 text-uppercase">Make secure your future</p>
                             <a href="#">Explore ></a>
-                        </div>
-                        <div class="project-image">
-                            <img class="img-fluid" src="assets/img/upcoming_project/upcoming-project4.png" alt="">
                         </div>
                     </div>
                 </div> <!-- project-bg end -->
@@ -465,16 +596,13 @@
                 
                 <!-- single upcomming project start -->
                 <div class="mb-4 text-center align-middle">
-                    <div class="project-bg project-bg-5">
+                    <div class="project-bg project-bg-2 project-image-5">
                         <div class="project-title">
                             <div class="project-logo">
-                               <h2 class="text-uppercase">Gold</h2>
+                                <img class="img-fluid" src="assets/img/upcoming_project/travel.png" alt="Upcomming Project Image">
                             </div>
-                            <p class="my-4 text-uppercase">accumulate your asset</p>
+                            <p class="my-4 text-uppercase">Learn & Enjoy</p>
                             <a href="#">Explore ></a>
-                        </div>
-                        <div class="project-image">
-                            <img class="img-fluid" src="assets/img/upcoming_project/upcoming-project5.png" alt="">
                         </div>
                     </div>
                 </div> <!-- project-bg end -->
@@ -482,7 +610,7 @@
                 
                 <!-- single upcomming project start -->
                 <div class="mb-4 text-center align-middle">
-                    <div class="project-bg project-bg-6">
+                    <div class="project-bg project-bg-6 project-image-6">
                         <div class="project-title">
                             <div class="project-logo">
                                <h2 class="text-uppercase">Green</h2>
@@ -490,25 +618,19 @@
                             <p class="my-4 text-uppercase">Eat healthy food</p>
                             <a href="#">Explore ></a>
                         </div>
-                        <div class="project-image">
-                            <img class="img-fluid" src="assets/img/upcoming_project/upcoming-project6.png" alt="">
-                        </div>
                     </div>
                 </div> <!-- project-bg end -->
                 <!-- single upcomming project end -->
                 
                 <!-- single upcomming project start -->
                 <div class="mb-4 text-center align-middle">
-                    <div class="project-bg project-bg-1">
+                    <div class="project-bg project-bg-1 project-image-7">
                         <div class="project-title">
                             <div class="project-logo">
-                                <img class="img-fluid" src="assets/img/upcoming_project/Menta.png" alt="">
+                                <h2 class="text-uppercase">Acap</h2>
                             </div>
-                            <p class="my-4 text-uppercase">accumulate your asset</p>
+                            <p class="my-4 text-uppercase">Advance your business capacity</p>
                             <a href="#">Explore ></a>
-                        </div>
-                        <div class="project-image">
-                            <img class="img-fluid" src="assets/img/upcoming_project/upcoming-project7.png" alt="">
                         </div>
                     </div>
                 </div> <!-- project-bg end -->
@@ -516,16 +638,13 @@
                 
                 <!-- single upcomming project start -->
                 <div class="mb-4 text-center align-middle">
-                    <div class="project-bg project-bg-2">
+                    <div class="project-bg project-bg-2  project-image-8">
                         <div class="project-title">
                             <div class="project-logo">
                                <h2 class="text-uppercase">Eduacation</h2>
                             </div>
                             <p class="my-4 text-uppercase">Gain knowledge</p>
                             <a href="#">Explore ></a>
-                        </div>
-                        <div class="project-image">
-                            <img class="img-fluid" src="assets/img/upcoming_project/upcoming-project8.png" alt="">
                         </div>
                     </div>
                 </div> <!-- project-bg end -->
@@ -583,5 +702,19 @@
     <script src="assets/js/owl.carousel.min.js"></script>
 
     <script src="assets/js/main.js"></script>
+    <script>
+        
+    
+        $('.flip-card .flip-card-inner').click(function() {
+            if($(this).hasClass("flip-card-inners")){
+                $(".big-show .flip-card .flip-card-inner").filter(".flip-card-inners").removeClass('flip-card-inners');      
+            }
+            else {
+                $(".big-show .flip-card .flip-card-inner").filter(".flip-card-inners").removeClass('flip-card-inners');      
+
+                $(this).closest('.flip-card-inner').toggleClass('flip-card-inners');
+            }
+        });
+    </script>
   </body>
 </html>

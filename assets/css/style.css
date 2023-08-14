@@ -36,11 +36,13 @@ body{
 }
 
 .mynevbar {
+    padding-top: 0;
+    padding-bottom: 0;
     background-color: var(--secondary-dark);
     color: var(--white);
 }
 .navbar-brand {
-    width: 15px;
+    width: 20px;
 }
 .navbar-dark .navbar-nav .nav-link{
     color: var(--white) !important;
@@ -52,19 +54,45 @@ body{
     width: 100%;
     display: flex;
     justify-content: space-around;
+
 }
+.navbar-toggler{
+    border: none;
+}
+.navbar-toggler-icon {
+    background-image: url("../img/logo/bread.svg") !important;
+    background-repeat: no-repeat;
+}
+.navigation-title {
+    background-color: #D6D6D9;
+}
+.navigation-title img {
+    height: 2rem;
+    margin-right: 5px;
+}
+
 .navigation-title a svg {
     font-size: 8px;
     rotate: -45deg;
 }
+#searchIcon {font-size: 15px;}
+/* Header Logo */
+/* .header-logo {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 6px;
+    background-image: url("../img/logo/A\ Kids\ Logo.svg");
+    background-repeat: no-repeat;
+    background-size: 2rem auto;
+} */
 /* header section */
 .header-section{
     background-color: var(--primary);
-    background-image: url("../img/header-cover.png");
-    background-size: cover;
-    background-position: center;
+    background-image: url("../img/Header\ Banner.jpg");
+    background-size: 120rem auto;
+    background-position: bottom;
     background-repeat: no-repeat;
-    height: 90vh;
+    height: 50rem;
 }
 .header-title {
     padding: 10rem 0;
@@ -111,10 +139,11 @@ body{
 }
 .project-title .project-logo {
     width: 100%;
-    height: 60px;
-}
-.project-title .project-logo img {
     height: 100%;
+}
+.project-title .project-logo img,
+.flip-card-back .project-logo img {
+    height: 50px;
 }
 .project-image {
     height: 400px;  
@@ -172,4 +201,9 @@ body{
 }
 .small-show{
     display: none;
+}
+
+.small-show .project-bg {
+    width: 100%;
+    height: 516px;
 }

@@ -1,5 +1,89 @@
 @media only screen and (max-width: 540px) {
-
+    .header-section{
+        height: 20rem !important;
+        background-size: 40rem auto !important;
+    }
+    .header-title h1, .project-header h1 {
+        font-size: 22px !important;
+    }
+    .header-title p {
+        font-size: 8px !important;
+        letter-spacing: 8px;
+    }
+    .small-show .project-bg {
+        height: 450px;
+    }
+    .project-image-1{
+        background-size: 22rem auto !important;
+    }
+    .project-title .project-logo img, .flip-card-back .project-logo img {
+        height: 30px;
+    }
+    .footer-wrapper .contact-section .footer-contact {
+        margin: 10px 0;
+    }
+    .footer-wrapper .contact-section .d-flex {
+        display: block !important;
+    }
+}
+@media only screen and (min-width: 1000px) {
+    .navbar .container {
+        width: 45rem;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .header-section{
+        height: 40rem;
+        background-size: 100rem auto;
+    }
+    .flip-card {
+        height: 450px;
+    }
+    .r-project-image-1{
+		background-size: 20rem auto;	
+	}
+    .r-project-image-3{
+		background-size: 25rem auto;	
+	}
+    .r-project-image-4{
+		background-size: 20rem auto;	
+	}
+    .project-image-1{
+        background-size: 30rem auto;
+    }
+    .project-image-2{
+        background-size: 35rem auto;
+    }
+    .project-image-3 {
+        background-size: 25rem auto;
+    }
+    .project-image-4 {
+        background-size: 35rem auto;
+    }
+    .project-image-5 {
+       background-size: 25rem auto;
+    }
+    .project-image-6 {
+        background-size: 35rem auto;
+    }
+    .project-image-7 {
+      background-size: 35rem auto;
+    }
+    .project-image-8 {
+      background-size: 35rem auto;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .header-section{
+        height: 30rem;
+        background-size: 60rem auto;
+    }
+    .header-title{
+        padding: 5rem 0;
+    }
+    .navigation-title a {
+        font-size: 12px;
+    }
     .header-title h1, .project-header h1 {
         font-size: 30px;
     }
@@ -7,8 +91,6 @@
         font-size: 12px;
         letter-spacing: 8px;
     }
-}
-@media only screen and (max-width: 800px) {
     .big-show {
         display: none;
     }   
@@ -26,8 +108,5 @@
     .footer-nav ul li {
         float: none;
         margin: 0 0;
-    }
-    .footer-com-sec, .navigation-title-con {
-        flex-direction: column;
     }
 }

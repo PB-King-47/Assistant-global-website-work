@@ -1,6 +1,6 @@
 // Search bar show or hide funciton
 $(document).ready(function(){
-    $("#search_form").on('shown.bs.collapse', function () {
+    $("#navbarSearch").on('shown.bs.collapse', function () {
         $("#search").focus();
     });
 });
@@ -11,37 +11,38 @@ $(document).ready(function(){
         autoWidth:false,
         autoplay:false,
 		nav:false,
-		dots:false,
+		dots:true,
         margin:10,
 		responsive:{
 			0:{
-				items:1
+				items:1,
+				merge:true
 			},
 			600:{
-				items:1.2,
+				items:1,
 				merge:true
 			}
 		}
     });
     
 });
-	
+
 $(document).ready(function(){
     $(".upc-project-carousel").owlCarousel({
         autoWidth:false,
         autoplay:false,
 		nav:false,
-		dots:false,
+		dots:true,
         margin:10,
 		responsive:{
 			0:{
-				items:1
+				items:1,
+				merge:true
 			},
 			600:{
-				items:1.2,
+				items:1,
 				merge:true
 			}
 		}
     });
-    
 });
